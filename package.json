@@ -1,0 +1,23 @@
+{
+  "name": "apple-animated-webpage",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasansid158/Apple-Animated-Webpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasansid158/Apple-Animated-Webpage/issues"
+  },
+  "homepage": "https://github.com/hasansid158/Apple-Animated-Webpage#readme",
+  "description": ""
+}
+
+  }
+  }

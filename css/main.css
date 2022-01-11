@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    overflow-x: hidden;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    color: #ffe5db;
+}
+
+.grid-12 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.position-h2 {
+    grid-row: 7;
+    grid-column: 5 / span 4;
+    align-self: center;
+}
+
+.iphone-image-wrapper {
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-auto-columns: 2fr 1fr 2fr;
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+}
+
+
+.iphone-image {
+    grid-row: 1;
+    grid-column: 2 / span 1;
+    align-self: center;
+    justify-self:center;
+    text-align: center;
+    transform: scale(4);
+    transform-origin: center top;
+}
+
+.inner-phone {
+    position: relative;
+}
+
+
+p {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin:0 0 8px 0;
+}
+
+.iphone1-text {
+    grid-column: 1;
+    text-align: right;
+    opacity: 0;
+}
+
+.iphone2-text {
+    grid-column: 3;
+    opacity: 0;
+}
+
+.iphone1-img {
+ position: absolute;
+    z-index: 2;
+}
+
+.iphone-stick {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    left: 54.5%;
+}
+
+.iphone2-img {
+ position: absolute;
+    z-index: 2;
+}
+
+.iphone1 img {
+    width: 100%;
+}
+
+.iphone2 img {
+    width: 88%;
+}
+
+.iphone1-img-behind {
+    z-index: 1;
+    position: relative;
+}
+
+.iphone2-img-behind {
+    z-index: 1;
+    position: relative;
+}
+
+@media screen and (min-width: 1600px) {
+    .iphone-image {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .sec1, .trigger1 {
+        height: 85vw;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}    
+        
+@media screen and (max-width: 599px) {
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .sec1, .trigger1 {
+        height: 75vw;
+    }
+
+    p {
+        font-size: 11px;
+    }
+}    
+
+@media screen and (max-width: 440px) {
+    h2 {
+        font-size: 1rem;
+    }
+
+    .sec1, .trigger1 {
+        height: 100vw;
+    }
+
+    p {
+        font-size: 8px;
+    }
+}    
+        
+        
