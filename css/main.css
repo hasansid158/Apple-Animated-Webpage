@@ -133,6 +133,18 @@ p {
 }    
         
 @media screen and (max-width: 599px) {
+    .iphone-image {
+        width: 120%;
+    }
+
+    .iphone2-text {
+        margin-left: 40px;
+    }
+
+    .iphone1-text {
+        margin-right: 40px;
+    }
+
     h2 {
         font-size: 1.1rem;
     }

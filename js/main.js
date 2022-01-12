@@ -8,7 +8,6 @@ const tl = gsap.timeline({
     scrollTrigger: {
         trigger: ".trigger1",
         start: "center center",
-        markers: true,
         scrub: .5,
     }
 }
@@ -21,7 +20,6 @@ const tl2 = new gsap.timeline({
     scrollTrigger: {
         trigger: ".trigger2",
         start: "center center",
-        markers: true,
         scrub: .5,
         pin: ".trigger2",
     }
